@@ -1,0 +1,1 @@
+import{_ as a,V as s,W as t,Z as e,a0 as c}from"./framework.8958f656.js";const r={},o=e("h3",{id:"javabases",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#javabases","aria-hidden":"true"},"#"),c(" javabases")],-1),n=[o];function _(d,i){return s(),t("div",null,n)}const l=a(r,[["render",_],["__file","javabases.html.vue"]]);export{l as default};
