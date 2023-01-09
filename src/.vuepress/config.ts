@@ -1,17 +1,21 @@
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+// import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
 
-  locales: {
-    "/": {
-      lang: "zh-CN",
-      title: "橘涂拾捌的wiki",
-      description: "橘涂拾捌的wiki, 搭建自己的知识库",
-    }
-  },
+  // locales: {
+  //   "/": {
+  //     lang: "zh-CN",
+  //     title: "橘涂拾捌的wiki",
+  //     description: "橘涂拾捌的wiki, 搭建自己的知识库",
+  //   }
+  // },
+  lang: "zh-CN",
+  title: "橘涂拾捌的wiki",
+  description: "橘涂拾捌的wiki, 搭建自己的知识库",
   theme,
   plugins: [
     searchProPlugin({

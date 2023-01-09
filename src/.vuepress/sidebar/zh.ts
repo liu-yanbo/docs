@@ -1,98 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  // "/": [
-  //   {
-  //     text: "Java",
-  //     // icon: "note",
-  //     prefix: "java/",
-  //     // link: "java/",
-  //     collapsible: false,
-  //     children: [
-  //       {
-  //         text: "Java基础 - 面向对象和基础",
-  //         // icon: "duoxiancheng",
-  //         prefix: "oop/",
-  //         // link: "oop/",
-  //         collapsible: true,
-  //         children:[
-  //           {
-  //             text: "java基础",
-  //             icon: "duoxiancheng",
-  //             link: "javabases.md",
-  //           },
-  //         ],
-  //       },
-  //       {
-  //         text: "Java进阶 - 集合框架",
-  //         // icon: "duoxiancheng",
-  //         prefix: "collections/",
-  //         // link: "collections/",
-  //         collapsible: true,
-  //         children:[
-  //           {
-  //             text: "SpringBoot自动配置原理",
-  //             // icon: "duoxiancheng",
-  //             link: "SpringBootAutoConfiguration.md",
-  //           },
-  //           {
-  //             text: "Spring Boot 如何编写自己的 Spring Boot starter",
-  //             // icon: "duoxiancheng",
-  //             link: "SpringBootstarter.md",
-  //           },
-            
-  //         ],
-  //       },
-  //       {
-  //         text: "Java进阶 - 并发框架",
-  //         // icon: "duoxiancheng",
-  //         prefix: "juc/",
-  //         // link: "juc/",
-  //         collapsible: true,
-  //         children:[
-  //           {
-  //             text: "Spring开心就好",
-  //             icon: "duoxiancheng",
-  //             link: "Spring.md",
-  //           },
-  //         ],
-  //       },
-
-  //       {
-  //         text: "Java进阶 - IO 框架",
-  //         // icon: "duoxiancheng",
-  //         prefix: "io/",
-  //         // link: "io/",
-  //         collapsible: true,
-  //         children:[
-  //           {
-  //             text: "Spring开心就好",
-  //             icon: "duoxiancheng",
-  //             link: "Spring.md",
-  //           },
-  //         ],
-  //       },
-
-  //       {
-  //         text: "Java进阶 - 新版本特性",
-  //         // icon: "duoxiancheng",
-  //         prefix: "feature/",
-  //         // link: "feature/",
-  //         collapsible: true,
-  //         children:[
-  //           {
-  //             text: "Spring开心就好",
-  //             icon: "duoxiancheng",
-  //             link: "Spring.md",
-  //           },
-  //         ],
-  //       },
-  //     ],
-  //   },
-  //   // "slides",
-  // ],
-
-   // 算法
+  // 算法
   "/algorithm/":[
     {
      text: "算法",
@@ -103,13 +12,13 @@ export const zhSidebar = sidebar({
      children: [
        {
          text: "Docker",
-        //  icon: "duoxiancheng",
+        // 
          prefix: "docker/",
          collapsible: true,
          children:[
            {
              text: "Docker的简单使用",
-             icon: "duoxiancheng",
+            
              link: "docker.md",
            },
          ],
@@ -117,13 +26,13 @@ export const zhSidebar = sidebar({
 
        {
          text: "K8S",
-        //  icon: "duoxiancheng",
+        // 
          prefix: "k8s/",
          collapsible: true,
          children:[
            {
              text: "k8s",
-             icon: "duoxiancheng",
+            
              link: "k8s.md",
            },
          ],
@@ -143,13 +52,13 @@ export const zhSidebar = sidebar({
        children: [
          {
            text: "数据库基础和原理",
-          //  icon: "duoxiancheng",
+          // 
            prefix: "principle/",
            collapsible: true,
            children:[
              {
                text: "Docker的简单使用",
-               icon: "duoxiancheng",
+              
                link: "docker.md",
              },
            ],
@@ -157,26 +66,26 @@ export const zhSidebar = sidebar({
   
          {
            text: "SQL 数据库",
-          //  icon: "duoxiancheng",
+          // 
            prefix: "sql/",
            collapsible: true,
            children:[
              {
                text: "k8s",
-               icon: "duoxiancheng",
+              
                link: "k8s.md",
              },
            ],
          },
          {
           text: "NoSQL 数据库",
-         //  icon: "duoxiancheng",
+         // 
           prefix: "nosql/",
           collapsible: true,
           children:[
             {
               text: "k8s",
-              icon: "duoxiancheng",
+             
               link: "k8s.md",
             },
           ],
@@ -228,7 +137,7 @@ export const zhSidebar = sidebar({
            children:[
              {
                text: "Spring IOC 和 DI 的区别",
-               icon: "duoxiancheng",
+              
                link: "ioc-di.md",
              },
            ],
@@ -265,48 +174,66 @@ export const zhSidebar = sidebar({
    "/java/": [
         {
           text: "Java基础 - 面向对象和基础",
-          // icon: "duoxiancheng",
           prefix: "oop/",
-          // link: "oop/",
+          link: "oop/",
           collapsible: true,
           children:[
             {
-              text: "java基础",
-              icon: "duoxiancheng",
-              link: "javabases.md",
+              text: "Java 基础语言",
+              link: "java-basic-lang.md",
             },
+            {
+              text: "Java 面向对象 - 封装",
+              link: "oop-encapsulation.md",
+            },
+            {
+              text: "Java 面向对象 - 继承",
+              link: "oop-inheritance.md",
+            },
+            {
+              text: "Java 面向对象 - 多态",
+              link: "oop-polymorphism.md",
+            },
+            {
+              text: "Java 详解 Java 继承",
+              link: "oop-inheritance-details.md",
+            },
+            {
+              text: "Java 接口和抽象类的使用选择",
+              link: "interface&&abstract-class.md",
+            },
+            {
+              text: "Java static关键字是什么",
+              link: "static.md",
+            },
+
           ],
         },
         {
-          text: "Java进阶 - 集合框架",
-          // icon: "duoxiancheng",
+          text: "Java进阶 - 集合框架",         
           prefix: "collections/",
-          // link: "collections/",
+          link: "collections/",
           collapsible: true,
           children:[
             {
-              text: "SpringBoot自动配置原理",
-              // icon: "duoxiancheng",
+              text: "SpringBoot自动配置原理",             
               link: "SpringBootAutoConfiguration.md",
             },
             {
-              text: "Spring Boot 如何编写自己的 Spring Boot starter",
-              // icon: "duoxiancheng",
+              text: "Spring Boot 如何编写自己的 Spring Boot starter",             
               link: "SpringBootstarter.md",
             },
             
           ],
         },
         {
-          text: "Java进阶 - 并发框架",
-          // icon: "duoxiancheng",
+          text: "Java进阶 - 并发框架",          
           prefix: "juc/",
-          // link: "juc/",
+          link: "juc/",
           collapsible: true,
           children:[
             {
-              text: "Spring开心就好",
-              icon: "duoxiancheng",
+              text: "Spring开心就好",             
               link: "Spring.md",
             },
           ],
@@ -314,29 +241,26 @@ export const zhSidebar = sidebar({
 
         {
           text: "Java进阶 - IO 框架",
-          // icon: "duoxiancheng",
+          
           prefix: "io/",
-          // link: "io/",
+          link: "io/",
           collapsible: true,
           children:[
             {
-              text: "Spring开心就好",
-              icon: "duoxiancheng",
+              text: "Spring开心就好",             
               link: "Spring.md",
             },
           ],
         },
 
         {
-          text: "Java进阶 - 新版本特性",
-          // icon: "duoxiancheng",
+          text: "Java进阶 - 新版本特性",       
           prefix: "feature/",
-          // link: "feature/",
+          link: "feature/",
           collapsible: true,
           children:[
             {
-              text: "Spring开心就好",
-              icon: "duoxiancheng",
+              text: "Spring开心就好",            
               link: "Spring.md",
             },
           ],
