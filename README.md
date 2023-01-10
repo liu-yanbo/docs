@@ -8,5 +8,5 @@ category:
   tag:
 - java
 - oop
-  copyright: false
+copyright: false
 ---
