@@ -14,4 +14,4 @@ footer:
 ---
 
 # Java 基础语言知识体系
-![基础语言知识体系](../../.vuepress/public/img/Java%20基础.svg) 
+![基础语言知识体系](../../.vuepress/public/img/Java基础.svg) 
