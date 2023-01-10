@@ -264,5 +264,20 @@ export const zhSidebar = sidebar({
               link: "Spring.md",
             },
           ],
-        },]
+        },],
+"/dev/": [
+  {
+    text: "Maven",
+    prefix: "maven/",
+    collapsible: true,
+    children:[
+      {
+        text: "java基础",
+        icon: "duoxiancheng",
+        link: "javabases.md",
+      },
+    ],
+  },
+],
+
 });

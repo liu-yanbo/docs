@@ -112,6 +112,20 @@ export const zhNavbar = navbar([
     ],
   },
 
+  {
+    text: '开发',
+    icon: 'creative',
+    prefix: '/dev/',
+    children: [
+      {
+        text: '开发 - Maven',
+        icon: 'creative',
+        link: 'maven/',
+        children: [],
+      }
+    ],
+  },
+  
 {
     text: '工具|部署',
     icon: 'creative',
