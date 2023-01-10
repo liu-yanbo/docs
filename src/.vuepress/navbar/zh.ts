@@ -41,8 +41,22 @@ export const zhNavbar = navbar([
       },
     ],
   },
-  { text: "算法", icon: "cloud", link: "/algorithm/" },
+
   {
+    text: '算法',
+    icon: 'creative',
+    prefix: '/algorithm/',
+    children: [
+      {
+        text: '算法基础和思想',
+        icon: 'creative',
+        link: 'basic/',
+        children: [],
+      }
+    ],
+  },
+
+   {
     text: '数据库',
     icon: 'creative',
     prefix: '/database/',
@@ -50,28 +64,29 @@ export const zhNavbar = navbar([
       {
         text: '数据库基础和原理',
         icon: 'creative',
-        prefix: '/database/principle/',
+        link: 'principle/',
         children: [],
       },
       {
         text: 'SQL 数据库',
         icon: 'config',
-        prefix: '/database/sql/',
+        link: 'sql/',
         children: [],
       },
       {
         text: 'NoSQL 数据库',
         icon: 'config',
-        prefix: '/database/nosql/',
+        link: 'nosql/',
         children: [],
       },
     ],
   },
+
+
   {
     text: 'Spring',
     icon: 'creative',
     prefix: '/spring/',
-    // children: ["springframework/", "springboot/", "springcloud/"],
     children: [
       {
         text: 'SpringFramework(v5.3)',
@@ -96,7 +111,37 @@ export const zhNavbar = navbar([
       },
     ],
   },
-  { text: "框架|中间件", icon: "framework", link: "/framework/" },
-  { text: "工具|部署", icon: "tools", link: "/tools/" },
+
+{
+    text: '工具|部署',
+    icon: 'creative',
+    prefix: '/tools/',
+    children: [
+      {
+        text: '开发工具',
+        icon: 'creative',
+        link: 'dev/',
+        children: [],
+      },
+      {
+        text: 'Git 详解',
+        icon: 'creative',
+        link: 'git/',
+        children: [],
+      },
+      {
+        text: 'Linux',
+        icon: 'creative',
+        link: 'linux/',
+        children: [],
+      },
+      {
+        text: 'Docker',
+        icon: 'creative',
+        link: 'docker/',
+        children: [],
+      },
+    ],
+  },
   
 ]);

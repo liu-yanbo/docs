@@ -5,14 +5,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
-
-  // locales: {
-  //   "/": {
-  //     lang: "zh-CN",
-  //     title: "橘涂拾捌的wiki",
-  //     description: "橘涂拾捌的wiki, 搭建自己的知识库",
-  //   }
-  // },
+  
   lang: "zh-CN",
   title: "橘涂拾捌的wiki",
   description: "橘涂拾捌的wiki, 搭建自己的知识库",
@@ -24,12 +17,10 @@ export default defineUserConfig({
       // 为分类和标签添加索引
       customFields: [
         {
-          name: "category",
           getter: (page) => page.frontmatter.category,
           formatter: "分类：$content",
         },
         {
-          name: "tag",
           getter: (page) => page.frontmatter.tag,
           formatter: "标签：$content",
         },

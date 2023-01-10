@@ -3,24 +3,24 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://liu-yanbo.github.io",
   // sidebar: "heading",
   author: {
     name: "橘涂拾捌",
-    url: "http://127.0.0.1:8080/article/",
+    url: "https://liu-yanbo.github.io/article/",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "/liu-yanbo/wiki",
+  repo: "liu-yanbo/liu-yanbo.github.io",
 
   docsBranch: "master",
 
   docsDir: "/src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word","PageView"],
   // 全屏
   fullscreen: true,
 
