@@ -280,4 +280,23 @@ export const zhSidebar = sidebar({
   },
 ],
 
+"/frontend/":[
+  {
+    text: "nodejs 开发指南",        
+    prefix: "node/",
+    link: "node/",
+    collapsible: true,
+    children:[
+      {
+        text: "前端开发环境的安装",
+        link: "env.md",
+      },
+      {
+        text: "npm 源切换工具 nrm 的使用 ",
+        link: "nrm.md",
+      },
+    ],
+  },
+],
+
 });

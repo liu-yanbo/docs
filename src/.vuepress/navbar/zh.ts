@@ -157,5 +157,18 @@ export const zhNavbar = navbar([
       },
     ],
   },
-  
+
+  {
+    text: '前端开发',
+    icon: 'creative',
+    prefix: '/frontend/',
+    children: [
+      {
+        text: 'nodejs 学习',
+        icon: 'creative',
+        link: 'node/',
+        children: [],
+      }
+    ],
+  },
 ]);
