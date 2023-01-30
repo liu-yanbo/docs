@@ -206,7 +206,10 @@ export const zhSidebar = sidebar({
               text: "Java static关键字是什么",
               link: "static.md",
             },
-
+            {
+              text: "类图中各个类之间的关系",
+              link: "类图中各个类之间的关系.md",
+            },
           ],
         },
         {
@@ -275,6 +278,25 @@ export const zhSidebar = sidebar({
         text: "java基础",
         icon: "duoxiancheng",
         link: "javabases.md",
+      },
+    ],
+  },
+],
+
+"/frontend/":[
+  {
+    text: "nodejs 开发指南",        
+    prefix: "node/",
+    link: "node/",
+    collapsible: true,
+    children:[
+      {
+        text: "前端开发环境的安装",
+        link: "env.md",
+      },
+      {
+        text: "npm 源切换工具 nrm 的使用 ",
+        link: "nrm.md",
       },
     ],
   },
