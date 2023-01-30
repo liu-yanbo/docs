@@ -1,1 +1,0 @@
-import{_ as e,V as a,W as t,Z as c}from"./framework.8958f656.js";const s={},n=c("p",null,"Java 基础语言",-1),_=[n];function o(l,r){return a(),t("div",null,_)}const d=e(s,[["render",o],["__file","java-basic-lang.html.vue"]]);export{d as default};
