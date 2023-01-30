@@ -206,7 +206,10 @@ export const zhSidebar = sidebar({
               text: "Java static关键字是什么",
               link: "static.md",
             },
-
+            {
+              text: "类图中各个类之间的关系",
+              link: "类图中各个类之间的关系.md",
+            },
           ],
         },
         {
