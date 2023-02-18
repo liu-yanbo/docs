@@ -3,8 +3,7 @@ title: Java基础 - 面向对象和基础
 ---
 
 ## Java 基础语言知识体系
-![基础语言知识体系.png](../../.vuepress/public/img/Java基础.svg) 
-
+<PDF url="/assets/pdf/Java基础.pdf"/>
 
 ## 0. 概述
 

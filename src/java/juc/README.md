@@ -4,4 +4,4 @@ copyright: false
 footer: 
 ---
 
-![并发编程](../../.vuepress/public/img/并发编程.svg)
+<PDF url="/assets/pdf/并发编程.pdf"/>

@@ -11,6 +11,7 @@ export default defineUserConfig({
   description: "橘涂拾捌的wiki, 搭建自己的知识库",
   theme,
   plugins: [
+    
     // searchProPlugin({
     //   // 索引全部内容
     //   indexContent: true,

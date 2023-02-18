@@ -2,10 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
+  { text: "导航", link: "https://nav.mgd2008.com" },
   { text: "博客", link: "/article/" },
   {
     text: 'Java',
-    icon: 'creative',
+    // icon: 'creative',
     prefix: '/java/',
     children: [
       {
@@ -44,12 +45,12 @@ export const zhNavbar = navbar([
 
   {
     text: '算法',
-    icon: 'creative',
+    // icon: 'creative',
     prefix: '/algorithm/',
     children: [
       {
         text: '算法基础和思想',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'basic/',
         children: [],
       }
@@ -58,24 +59,24 @@ export const zhNavbar = navbar([
 
    {
     text: '数据库',
-    icon: 'creative',
+    // icon: 'creative',
     prefix: '/database/',
     children: [
       {
         text: '数据库基础和原理',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'principle/',
         children: [],
       },
       {
         text: 'SQL 数据库',
-        icon: 'config',
+        // icon: 'config',
         link: 'sql/',
         children: [],
       },
       {
         text: 'NoSQL 数据库',
-        icon: 'config',
+        // icon: 'config',
         link: 'nosql/',
         children: [],
       },
@@ -85,26 +86,26 @@ export const zhNavbar = navbar([
 
   {
     text: 'Spring',
-    icon: 'creative',
+    // icon: 'creative',
     prefix: '/spring/',
     children: [
       {
         text: 'SpringFramework(v5.3)',
-        icon: 'creative',
+        // icon: 'creative',
         // prefix: 'springframework/',
         link: 'springframework/',
         children: [],
       },
       {
         text: 'SpringBoot系列(v2.6)',
-        icon: 'config',
+        // icon: 'config',
         // prefix: 'springboot/',
         link: 'springboot/',
         children: [],
       },
       {
         text: 'SpringCloud系列(v2.6)',
-        icon: 'config',
+        // icon: 'config',
         // prefix: 'springcloud/',
         link: 'springcloud/',
         children: [],
@@ -114,12 +115,12 @@ export const zhNavbar = navbar([
 
   {
     text: '开发',
-    icon: 'creative',
+    // icon: 'creative',
     prefix: '/dev/',
     children: [
       {
         text: '开发 - Maven',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'maven/',
         children: [],
       }
@@ -128,30 +129,30 @@ export const zhNavbar = navbar([
   
 {
     text: '工具|部署',
-    icon: 'creative',
+    // icon: 'creative',
     prefix: '/tools/',
     children: [
       {
         text: '开发工具',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'dev/',
         children: [],
       },
       {
         text: 'Git 详解',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'git/',
         children: [],
       },
       {
         text: 'Linux',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'linux/',
         children: [],
       },
       {
         text: 'Docker',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'docker/',
         children: [],
       },
@@ -160,15 +161,16 @@ export const zhNavbar = navbar([
 
   {
     text: '前端开发',
-    icon: 'creative',
+    // icon: 'creative',
     prefix: '/frontend/',
     children: [
       {
         text: 'nodejs 学习',
-        icon: 'creative',
+        // icon: 'creative',
         link: 'node/',
         children: [],
       }
     ],
   },
+  { text: "面试", link: "/interview/" },
 ]);

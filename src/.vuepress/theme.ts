@@ -20,7 +20,7 @@ export default hopeTheme({
 
   docsDir: "/src",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word","PageView"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "Word", "PageView"],
   // 全屏
   fullscreen: true,
 
@@ -33,7 +33,6 @@ export default hopeTheme({
   },
   // 纯净模式
   // pure: true,
-
   locales: {
 
     /**
@@ -64,6 +63,18 @@ export default hopeTheme({
   },
 
   plugins: {
+   
+      components: [
+        "Badge",
+        "BiliBili",
+        "CodePen",
+        "PDF",
+        "StackBlitz",
+        "VideoPlayer",
+        "YouTube",
+      ],
+    
+
     // If you don’t need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
@@ -121,7 +132,7 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    blog: true, 
+    blog: true,
 
 
     // uncomment these if you want a pwa
